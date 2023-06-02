@@ -1,0 +1,25 @@
+.sponsor-form{
+    padding: 20px;
+}
+
+.suscription-types{
+    margin-left: 30px;
+    max-width: 450px;
+}
+
+.sub-type{
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.851);
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.selected{
+    background-color: #5f9ea0;
+}
+
+.sub-price{
+    font-weight: bold;
+}

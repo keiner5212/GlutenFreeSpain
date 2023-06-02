@@ -1,0 +1,44 @@
+.product-indv-detail {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.comentarios {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 30px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-img {
+    height: 40%;
+    border-radius: 20px;
+    width: 40%;
+    margin: 0px 20px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
+}
+
+.info-product {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 95%;
+}
+
+.descIndv {
+    max-width: 400px;
+    margin: 0px;
+}
+
+.sponsors-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 30px 20px;
+}

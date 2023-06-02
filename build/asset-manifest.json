@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19c8dfd2.css",
+    "main.js": "/static/js/main.555ce6a8.js",
+    "static/media/banner.jpg": "/static/media/banner.9f4dbb5032a99dbae8fb.jpg",
+    "static/media/vegetariano_adobe_express.svg": "/static/media/vegetariano_adobe_express.7f6bd809b3772b290bb478637847ea6c.svg",
+    "static/media/no-vegetarian_adobe_express.svg": "/static/media/no-vegetarian_adobe_express.71be449c2fc4e2e9129e2420585f0177.svg",
+    "static/media/logo.svg": "/static/media/logo.c62633da0dd13a699f6cf4bd9711ac56.svg",
+    "static/media/correo.svg": "/static/media/correo.a4f25624c8f57a8c187eac9ba404db27.svg",
+    "static/media/contraseña.svg": "/static/media/contraseña.a08d4d2b556b6d242e8ed05df93b1ea5.svg",
+    "index.html": "/index.html",
+    "static/media/login-user.svg": "/static/media/login-user.2895163d32d3f4ef7925f5dd19a75718.svg",
+    "static/media/cerrar-sesion.svg": "/static/media/cerrar-sesion.ad3e4853064648eeffd5d77d4c64cdf6.svg",
+    "main.19c8dfd2.css.map": "/static/css/main.19c8dfd2.css.map",
+    "main.555ce6a8.js.map": "/static/js/main.555ce6a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19c8dfd2.css",
+    "static/js/main.555ce6a8.js"
+  ]
+}

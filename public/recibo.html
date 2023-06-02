@@ -1,0 +1,125 @@
+<!-- @format -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recibo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .bill-info {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .sponsor-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .sponsor-info img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .sponsor-details {
+            flex: 1;
+        }
+
+        .sponsor-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .sponsor-email {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .bill-details {
+            margin-top: 30px;
+        }
+
+        .bill-id {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .paid-status {
+            font-size: 14px;
+            color: #008000;
+            margin-bottom: 10px;
+        }
+
+        .subscription {
+            margin-top: 20px;
+        }
+
+        .subscription-id {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .subscription-description {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .dates {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .subscription-date,
+        .expiration-date {
+            font-weight: bold;
+        }
+
+        .price {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Recibo</h1>
+    <div class="bill-info">
+        <div class="sponsor-info">
+            <div class="sponsor-details">
+                <p class="sponsor-name">{{ bill.CIF_sponsor.name }}</p>
+                <p class="sponsor-email">{{ bill.CIF_sponsor.email }}</p>
+            </div>
+        </div>
+        <div class="bill-details">
+            <p class="bill-id">ID: {{ bill.id }}</p>
+            <p class="paid-status">Is Paid: {{ bill.is_paid }}</p>
+            <div class="subscription">
+                <p class="subscription-id">Suscription: {{ bill.suscription.id }}</p>
+                <p class="subscription-description">{{ bill.suscription.description }}</p>
+                <div class="dates">
+                    <p class="subscription-date">Subscription Date: {{ bill.subscription_date }}</p>
+                    <p class="expiration-date">Expiration Date: {{ bill.expiration_date }}</p>
+                </div>
+                <p class="price">Price: ${{ bill.suscription.price }}</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

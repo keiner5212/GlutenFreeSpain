@@ -1,0 +1,8 @@
+django==3.2.16
+django-environ==0.10.0
+django-cors-headers==3.14.0
+djangorestframework==3.14.0
+Pillow==9.5.0
+django-storages==1.13.2
+django-ckeditor==6.5.1
+psycopg2==2.9.6
